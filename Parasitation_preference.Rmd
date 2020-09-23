@@ -129,7 +129,7 @@ theme_wasp <- function() {
 }
 ```
 # Data analysis
-## GLM Test Parasitaziation Video 
+## GLM Test Parasitisation Video 
 
 ```{r, results='hide', warning = FALSE}
 #sink('GLM-Geschlecht_Wespe_virilis-output.txt')
@@ -174,7 +174,7 @@ Anova(m6)
 summary(glht(m6, mcp(Wasp = "Tukey")))
 #sink()
 ```
-## GlM Melanogaster Pupae Parasitation of T. drosophilae <melanogaster>
+## GlM Melanogaster Pupae Parasitisation of T. drosophilae <melanogaster>
 
 ```{r, results='hide', warning = FALSE}
 #sink('GLM-Geschlecht_Wespe_virilis-output.txt')
@@ -395,8 +395,8 @@ print(plot)
 dev.off()
 ```
 
-Building a plot of Parasitization and the pupae volume with geom_smooth for visualisation of the glm
-## Plot Parasitization
+Building a plot of Parasitisation and the pupae volume with geom_smooth for visualisation of the glm
+## Plot Parasitisation
 
 ```{r, results='hide', fig.show='hide', warning = FALSE}
 #suzukii_reared Trichoopria Sex wasp vs Pupeavolume ggplot_GLM
@@ -588,8 +588,8 @@ print(plot_suzukii_reared_volume_vs_sex)
 dev.off()
 ```
 
-## Parasitization Success
-### GLM Parasitization Success
+## Parasitisation Success
+### GLM Parasitisation Success
 
 ```{r, results='hide', warning = FALSE}
 #sink('GLM-Geschlecht_Wespe_virilis-output.txt')
@@ -847,7 +847,7 @@ pdf("plot_Parasitization_sucess.pdf",
 print(plot_suzukii_reared_volume_vs_sex)
 dev.off()
 ```
-# Significanc test Sucess of Parasitization 
+# Significanc test Sucess of Parasitisation 
 
 Compare_means with wilcox.test
 
@@ -864,7 +864,7 @@ compare_means(
 )
 ```
 
-## Box plot succes of Parasitism
+## Box plot success of Parasitism
 
 ```{r, results='hide', fig.show='hide', warning = FALSE}
 #DataTabel for means
@@ -978,7 +978,7 @@ print(plot)
 dev.off()
 ```
 
-# Significanc test FLY Sucess of Parasitization 
+# Significanc test FLY Sucess of Parasitisation 
 
 ```{r, results='hide', warning = FALSE}
 compare_means(Fly_success_parasitization ~ Wasp,
@@ -1003,7 +1003,7 @@ compare_means(
 
 ### Box plot FLY succes of Parasitism
 
-Probablilty that a fly overcomes a parasitizaiton
+Probablilty that a fly overcomes a Parasitisation
 
 ```{r, results='hide', fig.show='hide', warning = FALSE}
 #DataTabel for means
