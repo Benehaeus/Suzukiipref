@@ -1,0 +1,10 @@
+*.pdf
+JMP/
+Data_Analysis.Rproj
+*.ppt*
+#*.xls*
+.R*
+.Rdata
+*.html
+.DS_Store
+.Rproj.user

@@ -1,0 +1,16 @@
+version: '3'
+
+services: 
+  render:
+    build: .
+    volumes: 
+      - ./:/home/rstudio
+    command: R -e 'rmarkdown::render("Parasitation_preference.Rmd", output_dir = "./render", output_format = "html_document")'
+  rstudio:
+    build: .
+    volumes: 
+      - ./:/home/rstudio
+    ports: 
+      - "8787:8787"
+    environment: 
+      - PASSWORD=studio
